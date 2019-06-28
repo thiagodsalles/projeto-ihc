@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">SISTEMA ABC</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="projeto-index.html">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mensagem-index.html">Mensagens</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="professor-index.html">Professores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aluno-index.html">Alunos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main role="main">
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-3">Professores</h1>
+          <p><a class="btn btn-success btn-lg" href="professor-new.html" role="button">Novo Professor</a></p>
+        </div>
+      </div>
+      <div class="container">
+        <form class="form-inline">
+          <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <br>
+        <div class="dropdown">
+          <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Ação
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Enviar E-mail de Aviso Sobre Cadastro de Projeto</a>
+          </div>
+        </div>
+        <br>
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">Ação</th>
+              <th scope="col">Nome</th>
+              <th scope="col">CPF</th>
+              <th scope="col">E-mail</th>
+              <th scope="col" colspan="1">Professor Regular</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><input class="form-check-input ml-2" type="checkbox" value="" id="defaultCheck1"></td>
+              <td>Mikson Andrade</td>
+              <td>123.598.568-44</td>
+              <td>mikson@email.com</td>
+              <td>Sim</td>
+              <td><a class="btn btn-secondary btn-sm" href="professor-view.html" role="button">Ver</a></button></td>
+            </tr>
+            <tr>
+              <td><input class="form-check-input ml-2" type="checkbox" value="" id="defaultCheck1"></td>
+              <td>Claudia Nascimento</td>
+              <td>158.659.487-58</td>
+              <td>claudia@email.com</td>
+              <td>Não</td>
+              <td><button type="button" class="btn btn-secondary btn-sm">Ver</button></td>
+              </tr>
+            <tr>
+              <td><input class="form-check-input ml-2" type="checkbox" value="" id="defaultCheck1"></td>
+              <td>Pedro Paulo Assunção</td>
+              <td>548.699.324-78</td>
+              <td>pedro.paulo@email.com</td>
+              <td>Não</td>
+              <td><button type="button" class="btn btn-secondary btn-sm">Ver</button></td>
+            </tr>
+          </tbody>
+        </table>
+        <hr>
+      </div> <!-- /container -->
+    </main>
+    <footer class="container">
+      <p>&copy; Company 2017-2019</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
